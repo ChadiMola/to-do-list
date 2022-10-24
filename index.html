@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <section class="vh-100 gradient-custom">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-xl-10">
+            <div class="card">
+              <div class="card-body p-5">
+                <h6 class="mb-3">Awesome Todo List</h6>
+                <form
+                  class="d-flex justify-content-center align-items-center mb-4"
+                >
+                  <div class="form-outline flex-fill">
+                    <input
+                      type="text"
+                      id="form2"
+                      placeholder="New Task..."
+                      class="form-control"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-info ms-2">Add</button>
+                </form>
+                <!-- Tabs navs -->
+
+                <!-- Tabs content -->
+                <div class="tab-content" id="ex1-content">
+                  <div
+                    class="tab-pane fade show active"
+                    id="ex1-tabs-1"
+                    role="tabpanel"
+                    aria-labelledby="ex1-tab-1"
+                  >
+                    <ul class="list-group mb-0">
+                      <li
+                        class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2"
+                      >
+                        <div class="d-flex align-items-center">
+                          <input
+                            class="form-check-input me-2"
+                            type="checkbox"
+                          />
+                          <p>Cras justo odio</p>
+                        </div>
+                        <a
+                          href="#!"
+                          data-mdb-toggle="tooltip"
+                          title="Remove item"
+                        >
+                          <i class="fas fa-times text-primary"></i>
+                        </a>
+                      </li>
+                      <li
+                        class="list-group-item d-flex d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2"
+                      >
+                        <div class="d-flex align-items-center">
+                          <input
+                            class="form-check-input me-2"
+                            type="checkbox"
+                        
+                         
+                          />
+                         <p> Dapibus ac facilisis in</p>
+                        </div>
+                        <a
+                          href="#!"
+                          data-mdb-toggle="tooltip"
+                          title="Remove item"
+                        >
+                          <i class="fas fa-times text-primary"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- Tabs content -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
